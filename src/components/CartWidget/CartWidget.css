@@ -1,0 +1,11 @@
+ 
+  .imgCarrito {
+    width: 50px; 
+    height: 50px; 
+    cursor: pointer;
+  }
+  .numero{
+    color: aliceblue;
+    font-size: 20px;
+    margin-right: 30px;
+  }
