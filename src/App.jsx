@@ -1,6 +1,6 @@
 
 
-import NavBar from "./components/NavBar/navbar";
+import NavBar from "./components/NavBar/navbar";git 
 import CartWidget from "./components/CartWidget/CartWidget";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
