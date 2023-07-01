@@ -1,10 +1,7 @@
 .itemListContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 100px;
     min-height: 100vh;
-    background-color: rgb(119, 117, 117);
-    color: rgba(228, 228, 228, 0.808);
+    color: rgba(14, 13, 13, 0.808);
     font-size: 18px; 
     text-align: center;
     padding: 50px;

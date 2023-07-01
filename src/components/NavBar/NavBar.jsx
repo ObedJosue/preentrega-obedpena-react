@@ -4,7 +4,7 @@ import './NavBar.css';
 const Navbar = () => {
   return (
     <header>
-      <h1>Titulo de tienda</h1>
+      <h1>GAMING SHOP</h1>
       <nav className="navbar">
         <ul>
           <li>TECLADOS</li>
