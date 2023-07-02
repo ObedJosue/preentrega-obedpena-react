@@ -1,8 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .itemListContainer {
-    margin-top: 100px;
-    min-height: 100vh;
-    color: rgba(14, 13, 13, 0.808);
-    font-size: 18px; 
-    text-align: center;
-    padding: 50px;
-  }
+  margin-top: 100px;
+  height: 100vh;
+  color: rgba(14, 13, 13, 0.808);
+  font-size: 18px;
+  text-align: center;
+  padding: 50px;
+  width: 100%;
+}
+
