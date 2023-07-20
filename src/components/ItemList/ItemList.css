@@ -1,6 +1,7 @@
 .ItemList {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
+    justify-content: center;
+    
 }

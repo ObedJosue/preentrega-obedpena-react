@@ -3,6 +3,7 @@ import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
 import { getDoc, doc } from "firebase/firestore";
 import { db } from "../../Services/Config";
+import "./ItemDetailContainer.css";
 
 const ItemDetailContainer = () => {
   const [producto, setProducto] = useState(null);
@@ -18,8 +19,9 @@ const ItemDetailContainer = () => {
       })
       .catch((error) => console.log(error));
   }, [idItem]);
+
   return (
-    <div className="ItemDetailContainer">
+    <div className="centerContainer">
       <ItemDetail {...producto} />
     </div>
   );
