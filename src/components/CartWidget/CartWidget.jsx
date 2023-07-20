@@ -2,6 +2,7 @@ import './CartWidget.css';
 import carrito from '../../assets/img/carrito.png';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { CarritoContext } from '../../context/CarritoContext';
 
 const CartWidget = () => {
     const {cantidadTotal} = useContext(CarritoContext);
