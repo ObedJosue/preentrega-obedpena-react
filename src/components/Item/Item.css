@@ -8,13 +8,18 @@
 .tarjeta {
   width: 250px;
   height: 380px;
-  border: 1px solid #ccc;
+  border: 1px solid #d8d8d8;
   border-radius: 8px;
   padding: 16px;
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: #f5f5f5;
   margin-right: 24px;
   margin-bottom: 24px;
+  transition: box-shadow 0.3s ease;
+}
+
+.tarjeta:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Desplazamiento mínimo */
 }
 
 .tarjeta .imgProducto {
@@ -44,9 +49,9 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .tarjeta .btn:hover {
   background-color: #217dbb;
 }
-

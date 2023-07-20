@@ -14,13 +14,13 @@ const ItemDetail = ({ id, nombre, precio, img, stock }) => {
   };
 
   const [agregarCantidad, setAgregarCantidad] = useState(0);
-  const {agregarProducto} = useContext(CarritoContext);
+  const { agregarProducto } = useContext(CarritoContext);
 
   const manejadorCantidad = (cantidad) => {
     setAgregarCantidad(cantidad);
     // console.log("Productos agregados: " + cantidad);
-  const item = {id, nombre, precio};
-    agregarProducto(item, cantidad)   
+    const item = { id, nombre, precio };
+    agregarProducto(item, cantidad);
   };
 
   return (
@@ -31,7 +31,7 @@ const ItemDetail = ({ id, nombre, precio, img, stock }) => {
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, a?</p>
       <img className="imgDetail" src={img} alt={nombre} />
       {agregarCantidad > 0 ? (
-        <Link to="/cart" className="btnBack">
+        <Link to="/cart" className="btnAddToCart">
           Terminar compra
         </Link>
       ) : (
